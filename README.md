@@ -12,7 +12,7 @@
 
 서비스 이름	역할
 * gateway-service
-  // API Gateway (클라이언트 요청을 각 서비스로 라우팅) // localhost:8080
+  <br/> // API Gateway (클라이언트 요청을 각 서비스로 라우팅) // localhost:8080
 * auth-service //	사용자 인증 (JWT, OAuth)
 * lecture-service	 // 강의 CRUD, 수강 신청
 * payment-service	 // 강의 결제 처리 (카카오페이, 카드)
