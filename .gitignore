@@ -1,0 +1,16 @@
+# .gitignore (루트에 위치)
+.idea/              # IntelliJ 설정
+*.iml               # 모듈 설정 파일
+
+# Java/Spring Boot
+target/             # 빌드 결과물
+out/
+*.log               # 로그 파일
+
+# React npm 이거 용량 엄청커서 깃에 안올리고 각각 인스톨해서 받아야해요
+frontend/node_modules/      # npm 라이브러리
+dist/
+.env                # 환경변수
+
+# 기타
+.DS_Store           # Mac 전용 숨김파일

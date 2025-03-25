@@ -1,0 +1,14 @@
+# 줄바꿈 자동 통일
+* text=auto
+
+# Unix 스타일 줄바꿈 고정 (특히 스크립트, 코드파일)
+*.sh text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.java text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+
+# 이미지/바이너리는 텍스트로 처리하지 않음
+*.png binary
+*.jpg binary
