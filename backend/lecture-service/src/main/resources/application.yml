@@ -1,0 +1,20 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: lecture-service
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/lecture_db
+#    username: root
+#    password: mypassword
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # ?? ??? update, ?? ????? none ??
+    show-sql: true  # ???? SQL ??
+    properties:
+      hibernate:
+        format_sql: true  # SQL ?? ?? ??
